@@ -1,0 +1,29 @@
+   74  wget https://github.com/yt-dlp/releases/download/2026.03.31/yt-dlp_linux
+   75  wget https://github.com/yt-dlp/releases/download/2025.03.31/yt-dlp_linux
+   76  wget https://github.com/yt-dlp/yt-dlp/releases/download/2025.03.31/yt-dlp_linux
+   77  yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=wp430dtAAkM
+   78  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=wp430dtAAkM
+   79  chmod -x yt-dlp_linux 
+   80  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=wp430dtAAkM]
+   81  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=wp430dtAAkM
+   82  yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=wp430dtAAkM
+   84  chmod +x yt-dlp_linux 
+   85  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=wp430dtAAkM
+   86  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=gHkYOhKBaZCC4Q1Z
+   87  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?si=gHkYOhKBaZCC4Q1Z
+   88  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=LNK882I5V5M&pp
+   89  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watcq
+   92  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=LNK882I5V5M
+   93  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?v=LNK882I5V5M&pp
+   95  ./yt-dlp_linux -x --audio-format mp3 "https://www.youtube.com/watch?v=LNK882I5V5M&pp"
+   96  ./yt-dlp_linux -x --audio-format mp3 "https://www.youtube.com/watch?v=LNK882l5V5M&pp"
+  124  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/watch?si=f45u46nSnoshUdyH
+  126  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/playlist?list=PLH73CrC2UnrXe-uWjQA0NmW8_eBF6VIQH
+  127* ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/playlist?list=PLH73CrC2UnrXe-uWjQA0NmW8_eBF6VIQH&si=ey_PNP
+  129  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/playlist?list=PLH73CrC2UnrXe-uWjQA0NmW8_eBF6VIQH
+  131  ./yt-dlp_linux -x --audio-format mp3 https://www.youtube.com/playlist?list=OLAK5uy_m41LlwxS7a5V908rXIYjqWJOe4bMUQTew
+  143  ./yt-dlp_linux -p "/sleep" -x --audio-format mp3 https://www.youtube.com/playlist?list=OLAK5uy_m41LlwxS7a5V908rXIYjqWJOe4bMUQTew 
+  145  ./yt-dlp_linux -p "/home/fly/Music/sleep" -x --audio-format mp3 https://www.youtube.com/playlist?list=OLAK5uy_m41LlwxS7a5V908rXIYjqWJOe4bMUQTew 
+  146  ./yt-dlp_linux -P "/home/fly/Music/sleep" -x --audio-format mp3 https://www.youtube.com/playlist?list=OLAK5uy_m41LlwxS7a5V908rXIYjqWJOe4bMUQTew 
+  150  history |grep yt-dl
+  151  history |grep yt-dl> .history
